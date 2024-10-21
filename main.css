@@ -1,0 +1,283 @@
+body{
+  background-image: url(./img.css/FOTOS/Imagen\ de\ fondo.jpg!sw800);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fcfcfd;
+  margin: 0;
+  }
+
+
+a {
+    text-decoration: none;
+    color: #000000
+}
+
+li {
+    list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+
+nav,
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px
+}
+
+nav ul {
+ background-color: #b3b4ca;
+
+ height: 15px;
+ padding: 30px;
+ font-size: 24px;
+ color: #333;
+ background: linear-gradient(to right, rgba(179, 180, 202, 0.1), rgba(179, 180, 202, 1), rgba(179, 180, 202, 0.1)); /* Degradado en los lados */
+}
+
+nav ul li{
+  margin: 0px;
+  display: inline-block;
+  padding: 10px;
+}
+
+  .logo {
+    width: 200px;
+  }
+  
+  nav div ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+  }
+  
+  nav div a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: 32px;
+  }
+  a:hover {
+    color: #5c62b1;
+    font-weight: bold;
+    transition: ease-in-out;
+  }
+  
+  #hero-background {
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://img.freepik.com/foto-gratis/hermosa-figura-romana-tallada_23-2149413166.jpg?t=st=1717289918~exp=1717293518~hmac=a06a4b9d609e51287049946687ecdef5c54746c7278fc17bdca514ea682db68d&w=1380");
+  }
+
+.art-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+  
+  .hero-title {
+    position: absolute;
+    left: 30px;
+    top: 30%;
+    font-size: 60px;
+    width: 900px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .grid-articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 3rem;
+    justify-content: space-around;
+    place-content: center;
+    gap: 15px;
+  }
+  
+  article {
+    background-color: rgba(250, 250, 250, 0.649);
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 2px #00000032;
+  }
+  
+  article img {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  strong {
+    color: aliceblue;
+  }
+  
+  strong:hover {
+    color: rgb(52, 67, 232);
+    font-weight: bold;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px; 
+    width: 100%;
+    background-color: rgb(17, 57, 83);
+    color: white;
+    gap: 0,5px; 
+    padding: 15px; 
+}
+  .card-content {
+    margin: 15px;
+  }
+  .card-tittle {
+    margin: 0 0 15px 0;
+    font-size: 26px;
+    color: rgb(52, 67, 232);
+  
+  }
+  
+  .grid-articles article {
+    text-align: center; 
+  }
+  
+  .grid-articles img {
+    display: block;
+    margin: 0 auto; 
+  }
+    .img-Musas {
+      width: 100px;
+      opacity: 0.7; 
+      border: none; 
+      border-radius: 0; 
+      box-shadow: none; 
+  }
+
+
+  .ancient-title {
+    color: #6e06f2;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center; 
+    margin-bottom: 30px; 
+    font-family: 'Poppins', sans-serif; 
+}
+
+.ancient-detail {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 30px; 
+    width: 100%; 
+    padding: 20px; 
+}
+
+.ancient-img-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    background-color: #fdfdfd; 
+    border-radius: 15px; 
+    padding: 20px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ancient-img-content:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.img-ancient {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    margin-bottom: 15px; 
+}
+
+.ancient-text {
+    font-size: 18px; 
+    color: #333; 
+    text-align: center; 
+    line-height: 1.6; 
+    font-family: 'Poppins', sans-serif; 
+}
+.social-icon {
+      width: 40px;
+  
+      
+}
+
+.social-media{
+  text-align: center;
+  
+
+}
+
+.social-link{
+  padding: 0;
+}
+
+.modern-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 50px; 
+  margin-bottom: 10px; 
+}
+
+.modern-img {
+  width: 100px; 
+  height: 40px;
+  background-size: cover;
+  object-fit: contain;
+  border-radius: 30px;
+}
+
+.img-modern {
+  width: 600px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.modern-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+}
+
+
+.modern {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 1200px;
+}
+
+.img-wrapper {
+  position: relative; 
+}
+
+.img-title {
+  position: absolute; 
+  bottom: 30px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  color: rgb(255, 255, 255); 
+  background-color: #113953; 
+  padding: 5px 10px; 
+  border-radius: 15px; 
+  font-size: 12px; 
+}
